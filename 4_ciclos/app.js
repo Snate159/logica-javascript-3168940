@@ -1,3 +1,29 @@
+//Array
+// let frutas = ["mango","piña","papaya","uva","limón","aguacate"]
+// let jugadores = [
+//   {
+//     id: 1,
+//     nombre: "diaz", 
+//     pais: "col"
+//   },
+//     "james",
+//     "messi"
+// ]
+// console.log( jugadores[0].nombre ) //Imprimir nombre "diaz"
+
+//Objeto
+// let pelicula = {
+//   nombre: "Back to the future",
+//   estreno: 1986,
+//   director:  "Robert Zemeckis",
+//   calificacion: "8.5"
+// }
+
+// console.log( pelicula.director )
+
+
+
+
 /*
 let num = Number(prompt("Introduce un numero"))
 let counter = 1
@@ -41,7 +67,7 @@ for(let i = 1; i <= 50; i++) {
 } */
 
 
-    
+
 for(let i = 1; i <= 100; i++) {
     if(i >= 20 && i <= 30) {
         continue
