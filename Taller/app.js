@@ -248,3 +248,20 @@ do {
     console.log("Total de nombres: " + nombres.length);
 
 } */
+
+
+//Ejercicio 15
+let correcto
+do {
+    let num1 = Math.floor(Math.random() * 9) + 1
+    let num2 = Math.floor(Math.random() * 999) + 1
+
+    let respuesta = Number(prompt("Cuanto es " + num1 + " x " + num2 + " ? "))
+    if (respuesta === num1*num2) {
+        console.log("Ganaste")
+        correcto = true
+    } else {
+        console.log("Incorrecto, intentalo de nuevo")
+        correcto = false
+    }
+} while(!correcto)
