@@ -47,5 +47,87 @@ if (dinero < producto) {
 } */
 
 
-//Ejercicio 5
- 
+/* //Ejercicio 5
+ let costo = Number(prompt("Cuanto cuesta cada vacuna?"))
+ let aplicacion = Number(prompt("Cuanto cuesta la aplicacion de la vacuna?"))
+ let vacunas = Number(prompt("Dame el numero de vacunas que se aplicaran"))
+ let total = vacunas*(costo+aplicacion)
+ console.log("El total gastado en vacunas en el dia es de: " + total) */
+
+
+/*  //Ejercicio 6
+ let cantidad = Number(prompt("Las camisas tienen un precio de 20000, cuantas camisas desea adquirir?"))
+ let camisa = 20000
+
+ if (cantidad === 0) {
+    console.log("No compraste nada")
+ } else {
+    let total = camisa*cantidad
+    let descuento
+    if (cantidad >= 3) {
+    descuento = total * 0.20;
+    console.log("Se aplica un descuento del 20%")
+ } else {
+    descuento = total*0.10;
+    console.log("Se aplica un descuento del 10%")
+ }
+
+ let totalPagar = total - descuento
+ console.log("El total a pagar es: " + totalPagar)
+} */
+
+
+/* //Ejercicio 7
+let dineroInicial = Number(prompt("Con cuanto dinero deseas iniciar el dia de hoy?"))
+let ventas = 800000*4
+console.log("Conseguiste 4 ventas de 800000")
+let total = dineroInicial+ventas
+let pagoAcreedores = total*0.10;
+let dineroFinal = total-pagoAcreedores
+console.log("Dinero con el que empezaste: " + dineroInicial)
+console.log("Pago a acreedores(10%): " + pagoAcreedores)
+console.log("Dinero con el que terminaste: " + dineroFinal) */
+
+
+/* //Ejercicio 8
+let dia1 = 200000
+let dia2 = 150000
+let dia3 = 500000
+let dia4 = 250000
+let dia5 = 700000
+let suma = dia1+dia2+dia3+dia4+dia5
+let promedio = suma/5
+console.log("El promedio de ventas es: " + promedio) */
+
+
+//Ejercicio 9
+let num1 = Number(prompt("Ingrese el primer numero"))
+let num2 = Number(prompt("Ingrese el segundo numero"))
+let operacion = prompt("Ingrese la operacion(+, -, *, /)")
+let resultado
+
+switch (operacion) {
+    case "+":
+        resultado = num1 + num2;
+        break;
+    case "-":
+        resultado = num1 - num2;
+        break;
+    case "*":
+        resultado = num1 * num2;
+        break;
+    case "/":
+        if (num2 !== 0) {
+            resultado = num1 / num2
+        } else {
+            console.log("No se puede dividir entre 0")
+            resultado = null
+        } break;
+    default:
+        console.log("Operacion no valida")
+        resultado = null
+}
+
+if (resultado !== null) {
+    console.log("El resultado es: " + Math.round(resultado))
+}
