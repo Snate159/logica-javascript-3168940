@@ -100,7 +100,7 @@ let promedio = suma/5
 console.log("El promedio de ventas es: " + promedio) */
 
 
-//Ejercicio 9
+/* //Ejercicio 9
 let num1 = Number(prompt("Ingrese el primer numero"))
 let num2 = Number(prompt("Ingrese el segundo numero"))
 let operacion = prompt("Ingrese la operacion(+, -, *, /)")
@@ -130,4 +130,117 @@ switch (operacion) {
 
 if (resultado !== null) {
     console.log("El resultado es: " + Math.round(resultado))
+} */
+
+
+/*
+//Ejercicio 10
+
+let num1 = Number(prompt("Ingrese el primer numero"))
+let num2 = Number(prompt("Ingrese el secundo numeror"))
+let num3 = Number(prompt("Ingrese el tercer numero"))
+
+let numeros = [num1, num2, num3];
+numeros.sort((a, b) => a - b);
+
+// Los valores ordenados
+let menor = numeros[0];
+let medio = numeros[1];
+let mayor = numeros[2];
+
+console.log(`Numeros ingresados: ${num1}, ${num2}, ${num3}`);
+console.log(`Numero mayor: ${mayor}`);
+console.log(`Numero menor: ${menor}`);
+console.log(`Numero medio: ${medio}`);
+
+if (num1 === num2 && num2 === num3) {
+    console.log("Los tres números son iguales");
+} else if (num1 === num2 || num1 === num3 || num2 === num3) {
+    console.log("Hay números iguales entre los ingresados");
+} */
+
+
+
+/* 
+//Ejercico 11
+
+ let edad = Number(prompt("Dime tu edad"))
+ let altura = Number(prompt("Dame tu altura en metros"))
+ let peso = Number(prompt("Dame tu peso en kg"))
+ 
+ console.log("Edad: " + edad + " años");
+console.log("Altura: " + altura + " metros");
+console.log("Peso: " + peso + " kg");
+ 
+
+ if (edad >= 18 && altura > 1.7 && peso >= 50 && peso <= 90 ) {
+  console.log("felicidades, fuites seleccionado para el equipo de Baloncesto");
+ } else {
+    console.log("Lo sentimos, no fuiste seleccioando para el equipo de Baloncesto");
+ 
+ 
+// Requisitos que no se cumplen
+
+ if (edad < 18) {
+    console.log("Eres menor de edad,no cumples con los requisitos");
+ }
+
+ if (altura <= 1.7) {
+    console.log("Lo siento, no cumples con la altura requerida");
+
+ }
+
+ if (peso < 50 || peso > 90) {
+    console.log("Lo siento,no cumples con el peso requerido");
+
 }
+ } */             
+ 
+    
+/*
+//Ejercicio 12
+
+let sueldoactual = Number(prompt("Dame el sueldo actual del trabajor")) */
+
+
+
+
+
+ 
+/*
+//Ejercicio 13
+
+let datos = [ ];
+
+datos[0] = prompt("Ingresa el primer dato:");
+datos[1] = prompt("Ingresa el segundo dato:");
+datos[2] = prompt("Ingresa el tercer dato:");
+
+console.log("Contenido de los datos del array:");
+console.log(datos);
+
+console.log("Elemento 0:", datos[0]);
+console.log("Elemento 1:", datos[1]);
+console.log("Elemento 2:", datos[2]);
+*/
+
+
+
+/*
+//Ejercicio 14
+ let nombres = ["Johan","Victor","Oliver","Simon","Mia","Tatiana","Celese","Ines"] ; {
+
+ console.log("nombres.Escribe la palabra 'Salir' cuando quieras terminar")
+
+do {
+        nombre = prompt("Dame un nombre (o 'salir' para terminar):");
+
+        if (nombre !== null && nombre.toLowerCase() !== "salir") {
+            nombres.push(nombre);
+            console.log("Nombre ingresado: " + nombre);
+        }
+    } while (nombre !== null && nombre.toLowerCase() !== "salir");
+    
+    console.log("Total de nombres: " + nombres.length);
+
+} */
