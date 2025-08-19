@@ -197,16 +197,20 @@ console.log("Peso: " + peso + " kg");
  } */             
  
     
-/*
-//Ejercicio 12
-
-let sueldoactual = Number(prompt("Dame el sueldo actual del trabajor")) */
-
-
-
-
+/* //Ejercicio 12
+let sueldoactual = Number(prompt("Dame el sueldo actual del trabajor"))
+let sueldoMinimo = 1400000
+if (sueldoactual === sueldoMinimo) {
+    console.log("Tu sueldo es el salario minimo, obtienes un aumento del 10%")
+    let aumento = sueldoactual*0.10
+    let sueldoFinal = sueldoactual+aumento
+    console.log("Tu sueldo con el aumento queda en: " + sueldoFinal)
+} else {
+    console.log("No eres apto para el aumento")
+} */
 
  
+
 /*
 //Ejercicio 13
 
