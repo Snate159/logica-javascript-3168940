@@ -250,7 +250,7 @@ do {
 } */
 
 
-//Ejercicio 15
+/* //Ejercicio 15
 let correcto
 do {
     let num1 = Math.floor(Math.random() * 9) + 1
@@ -264,4 +264,12 @@ do {
         console.log("Incorrecto, intentalo de nuevo")
         correcto = false
     }
-} while(!correcto)
+} while(!correcto) */
+
+
+//Ejercicio extra (Cree un array de 8 frutas y con ayuda del ciclo flor imprimialos en pantalla en una lista numerada)
+let frutas = ["Manzana", "Pera", "kiwi", "Arandanos", "Mango", "Uva", "Fresa", "Sandia"]
+
+for (let i = 0; i < frutas.length; i++) {
+    console.log((i + 1) + ". " + frutas[i])
+}
