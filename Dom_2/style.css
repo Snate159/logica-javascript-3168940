@@ -104,3 +104,15 @@ button:hover {
   font-weight: bold;
   color: #333;
 }
+
+.btn-volver {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}

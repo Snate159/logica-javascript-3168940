@@ -7,6 +7,7 @@ const userPage = document.querySelector(".userPage")
 const imgEquipo = document.querySelector(".img-equipo")
 const textSaludo = document.querySelector(".text-saludo")
 const textEquipo = document.querySelector(".text-equipo")
+const btnVolver = document.querySelector(".btn-volver")
 
 const enviarData = (e) => {
   const equipo = document.querySelector('input[name="equipo"]:checked')
@@ -23,6 +24,12 @@ const enviarData = (e) => {
   loginContainer.style.display = "none"
   //
   //
+
+  btnVolver.addEventListener("click", () => {
+  userPage.style.display = "none"
+  loginContainer.style.display = "block"
+  document.body.style.background = "#f0f0f0"
+})
 }
 
 formulario.addEventListener("submit",enviarData)
